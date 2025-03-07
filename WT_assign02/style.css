@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1abc9c;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+#products {
+    padding: 40px;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+#products h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.1rem;
+}
+
+.buy-btn {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #16a085;
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#testimonials {
+    background-color: #f39c12;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#offers {
+    background-color: #e74c3c;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.offer {
+    margin-bottom: 20px;
+}
+
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+#contact input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 0.9rem;
+}
